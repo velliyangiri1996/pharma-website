@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2c5aa0" />
+    <meta name="description" content="Leading pharmaceutical distributor in Chennai with 30+ years experience. Authorized stockist for all major pharma companies." />
+    <meta name="keywords" content="pharmaceutical distributor, medical supplies, medicine distributor, Chennai, vaccines, oncology, pharmaceuticals" />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Pharma Distribution | Medical Supplies Distributor" />
+    <meta property="og:description" content="Leading pharmaceutical distributor in Chennai with 30+ years experience." />
+    <meta property="og:image" content="%PUBLIC_URL%/images/og-image.jpg" />
+    <meta property="og:url" content="https://pharmadist.com" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pharma Distribution | Medical Supplies Distributor" />
+    <meta name="twitter:description" content="Leading pharmaceutical distributor in Chennai with 30+ years experience." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/images/twitter-image.jpg" />
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+    
+    <title>Pharma Distribution | Medical Supplies Distributor</title>
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!-- Loader (shown before React loads) -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-3">Loading Pharma Distribution...</p>
+        </div>
+    </div>
+    
+    <style>
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+        #root:not(:empty) + #preloader {
+            display: none;
+        }
+    </style>
+</body>
+</html>
